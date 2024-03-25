@@ -88,23 +88,19 @@ function ejercicio5(){
     console.log("El factorial de " + factor + " es: " + producto);
 }
 function ejercicio6(){
-
-    let factor = prompt("Ingrese un numero para calcular el factorial")
-    let resto = factor / 2
     
+    var numero= prompt("Ingrese un número para determinar si es par o impar.");
+    var resto= numero%2;
 
-    if(factor <= 0){
-
-        console.log("El numero cero no es valido")
+    if(resto == 0){
+        console.log("El número es par");
     }
-    
-   
-
-    if(resto = 0){
-        console.log("El numero es par")
+    else if(numero==0){
+        console.log("El número introducido es invalido.");
     }
+
     else{
-        console.log("El numero es impar")
+        console.log("El numero es impar");
     }
 
 }
